@@ -1,13 +1,14 @@
-workflows:  ios-project-debug:
+workflows:
+  ios-project-debug:
     name: iOS debug
     environment:
-        xcode: latest
-        cocoapods: default
-        vars:
-            XCODE_PROJECT: "GameCatalogue.xcodeproj"
-            XCODE_SCHEME: "GameCatalogue"
+      xcode: latest
+      cocoapods: default
+      vars:
+          XCODE_PROJECT: "GameCatalogue.xcodeproj"
+          XCODE_SCHEME: "GameCatalogue"
     scripts:
-        - name: Run tests
+      - name: Run tests
         script: |
           xcodebuild \
           -project "$XCODE_PROJECT" \
@@ -15,14 +16,14 @@ workflows:  ios-project-debug:
           -sdk iphonesimulator \
           -destination 'platform=iOS Simulator,name=iPhone 12,OS=15.4' \
           clean build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
-        - name: Build debug app
+      - name: Build debug app
         script: |
           xcodebuild build -project "$XCODE_PROJECT" \
           -scheme "$XCODE_SCHEME" \
           CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
     artifacts:
-        - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
     publishing:
-        email:
+      email:
         recipients:
-            - fahlepyrizal@gmail.com
+          - fahlepyrizal@gamil.com
