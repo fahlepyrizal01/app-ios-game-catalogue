@@ -6,25 +6,35 @@
 //
 
 import SwiftUI
+import Core
+import FeatureHome
+import FeatureDetail
+import FeatureFavorite
+import FeatureAbout
 
 struct ContentView: View {
     
     @EnvironmentObject var homePresenter: HomePresenter
     @EnvironmentObject var favoritePresenter: FavoritePresenter
+    @EnvironmentObject var detailPresenter: DetailPresenter
     
     var body: some View {
         TabView {
-            HomeView(presenter: homePresenter)
-                .tabItem {
-                    Image(systemName: "house.fill")
-                    Text("Home")
-                }
+            HomeView(homePresenter: homePresenter, action: { shortScreenshots, id in
+                DetailView(detailPresenter: detailPresenter, shortScreenshots: shortScreenshots, id: id)
+            })
+            .tabItem {
+                Image(systemName: "house.fill")
+                Text("Home")
+            }
             
-            FavoriteView(presenter: favoritePresenter)
-                .tabItem {
-                    Image(systemName: "star.fill")
-                    Text("Favorites")
-                }
+            FavoriteView(favoritePresenter: favoritePresenter, action: { shortScreenshots, id in
+                DetailView(detailPresenter: detailPresenter, shortScreenshots: shortScreenshots, id: id)
+            })
+            .tabItem {
+                Image(systemName: "star.fill")
+                Text("Favorites")
+            }
             
             About()
                 .tabItem {

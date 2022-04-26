@@ -7,6 +7,9 @@
 
 import SwiftUI
 import ApiGames
+import FeatureHome
+import FeatureDetail
+import FeatureFavorite
 
 @main
 struct GameCatalogueApp: App {
@@ -16,6 +19,7 @@ struct GameCatalogueApp: App {
             ContentView()
                 .environmentObject(HomePresenter(gameUseCase: Injection.init().provideGame()))
                 .environmentObject(FavoritePresenter(gameUseCase: Injection.init().provideGame()))
+                .environmentObject(DetailPresenter(gameUseCase: Injection.init().provideGame()))
         }
     }
     

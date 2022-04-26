@@ -7,22 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA39AA512817F3B9002675A0 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA39AA502817F3B9002675A0 /* DateUtils.swift */; };
-		CA39AA542817F3DB002675A0 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA39AA532817F3DB002675A0 /* ActivityIndicator.swift */; };
-		CA39AA562817F3EE002675A0 /* CardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA39AA552817F3EE002675A0 /* CardModifier.swift */; };
-		CA39AA582817F403002675A0 /* GameItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA39AA572817F403002675A0 /* GameItem.swift */; };
-		CA39AA672817F4B4002675A0 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA39AA662817F4B4002675A0 /* About.swift */; };
-		CA39AA692817F4CF002675A0 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA39AA682817F4CF002675A0 /* DetailPresenter.swift */; };
-		CA39AA6C2817F561002675A0 /* ApiGames in Frameworks */ = {isa = PBXBuildFile; productRef = CA39AA6B2817F561002675A0 /* ApiGames */; };
+		CA2866102818234F004702D0 /* ApiGames in Frameworks */ = {isa = PBXBuildFile; productRef = CA28660F2818234F004702D0 /* ApiGames */; };
+		CA28661728182C1C004702D0 /* FeatureHome in Frameworks */ = {isa = PBXBuildFile; productRef = CA28661628182C1C004702D0 /* FeatureHome */; };
+		CA28661C2818380A004702D0 /* FeatureAbout in Frameworks */ = {isa = PBXBuildFile; productRef = CA28661B2818380A004702D0 /* FeatureAbout */; };
+		CA28661E2818380A004702D0 /* FeatureDetail in Frameworks */ = {isa = PBXBuildFile; productRef = CA28661D2818380A004702D0 /* FeatureDetail */; };
+		CA2866202818380A004702D0 /* FeatureFavorite in Frameworks */ = {isa = PBXBuildFile; productRef = CA28661F2818380A004702D0 /* FeatureFavorite */; };
 		CA39AA6E2817F581002675A0 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = CA39AA6D2817F581002675A0 /* SDWebImageSwiftUI */; };
 		CA39AA702817F586002675A0 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CA39AA6F2817F586002675A0 /* RxSwift */; };
-		CA39AA722817F9CE002675A0 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA39AA712817F9CE002675A0 /* DetailView.swift */; };
-		CA39AA742817F9E8002675A0 /* FavoritePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA39AA732817F9E8002675A0 /* FavoritePresenter.swift */; };
-		CA39AA762817FA1F002675A0 /* FavoriteRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA39AA752817FA1F002675A0 /* FavoriteRouter.swift */; };
-		CA39AA782817FAAB002675A0 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA39AA772817FAAB002675A0 /* FavoriteView.swift */; };
-		CA39AA7A2817FAD7002675A0 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA39AA792817FAD7002675A0 /* HomePresenter.swift */; };
-		CA39AA7C2817FB07002675A0 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA39AA7B2817FB07002675A0 /* HomeRouter.swift */; };
-		CA39AA7E2817FB43002675A0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA39AA7D2817FB43002675A0 /* HomeView.swift */; };
 		CAA768E62815A1CD0056058E /* GameCatalogueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA768E52815A1CD0056058E /* GameCatalogueApp.swift */; };
 		CAA768E82815A1CD0056058E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA768E72815A1CD0056058E /* ContentView.swift */; };
 		CAA768EA2815A1CD0056058E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAA768E92815A1CD0056058E /* Assets.xcassets */; };
@@ -51,20 +42,11 @@
 
 /* Begin PBXFileReference section */
 		CA15CFB62815B8AD008D03C0 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
-		CA15CFB72815B948008D03C0 /* ApiGames */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ApiGames; path = ../Modules/ApiGames; sourceTree = "<group>"; };
-		CA39AA502817F3B9002675A0 /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
-		CA39AA532817F3DB002675A0 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
-		CA39AA552817F3EE002675A0 /* CardModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModifier.swift; sourceTree = "<group>"; };
-		CA39AA572817F403002675A0 /* GameItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameItem.swift; sourceTree = "<group>"; };
-		CA39AA662817F4B4002675A0 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
-		CA39AA682817F4CF002675A0 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
-		CA39AA712817F9CE002675A0 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
-		CA39AA732817F9E8002675A0 /* FavoritePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePresenter.swift; sourceTree = "<group>"; };
-		CA39AA752817FA1F002675A0 /* FavoriteRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteRouter.swift; sourceTree = "<group>"; };
-		CA39AA772817FAAB002675A0 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
-		CA39AA792817FAD7002675A0 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
-		CA39AA7B2817FB07002675A0 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
-		CA39AA7D2817FB43002675A0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CA28661128182371004702D0 /* FeatureHome */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = FeatureHome; path = ../Modules/FeatureHome; sourceTree = "<group>"; };
+		CA28661528182A94004702D0 /* Core */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Core; path = ../Modules/Core; sourceTree = "<group>"; };
+		CA28661828183524004702D0 /* FeatureAbout */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = FeatureAbout; path = ../Modules/FeatureAbout; sourceTree = "<group>"; };
+		CA28661928183540004702D0 /* FeatureFavorite */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = FeatureFavorite; path = ../Modules/FeatureFavorite; sourceTree = "<group>"; };
+		CA28661A28183577004702D0 /* FeatureDetail */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = FeatureDetail; path = ../Modules/FeatureDetail; sourceTree = "<group>"; };
 		CAA768E22815A1CD0056058E /* GameCatalogue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameCatalogue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA768E52815A1CD0056058E /* GameCatalogueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCatalogueApp.swift; sourceTree = "<group>"; };
 		CAA768E72815A1CD0056058E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -82,9 +64,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA28661E2818380A004702D0 /* FeatureDetail in Frameworks */,
+				CA28661C2818380A004702D0 /* FeatureAbout in Frameworks */,
+				CA2866202818380A004702D0 /* FeatureFavorite in Frameworks */,
+				CA28661728182C1C004702D0 /* FeatureHome in Frameworks */,
+				CA2866102818234F004702D0 /* ApiGames in Frameworks */,
 				CA39AA702817F586002675A0 /* RxSwift in Frameworks */,
 				CA39AA6E2817F581002675A0 /* SDWebImageSwiftUI in Frameworks */,
-				CA39AA6C2817F561002675A0 /* ApiGames in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,154 +108,6 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CA39AA4D2817F387002675A0 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				CA39AA592817F448002675A0 /* About */,
-				CA39AA5A2817F453002675A0 /* Detail */,
-				CA39AA5B2817F45C002675A0 /* Favorite */,
-				CA39AA5C2817F465002675A0 /* Home */,
-				CA39AA4E2817F39C002675A0 /* Utils */,
-			);
-			path = Modules;
-			sourceTree = "<group>";
-		};
-		CA39AA4E2817F39C002675A0 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				CA39AA4F2817F3A7002675A0 /* Date */,
-				CA39AA522817F3CE002675A0 /* View */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		CA39AA4F2817F3A7002675A0 /* Date */ = {
-			isa = PBXGroup;
-			children = (
-				CA39AA502817F3B9002675A0 /* DateUtils.swift */,
-			);
-			path = Date;
-			sourceTree = "<group>";
-		};
-		CA39AA522817F3CE002675A0 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				CA39AA532817F3DB002675A0 /* ActivityIndicator.swift */,
-				CA39AA552817F3EE002675A0 /* CardModifier.swift */,
-				CA39AA572817F403002675A0 /* GameItem.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		CA39AA592817F448002675A0 /* About */ = {
-			isa = PBXGroup;
-			children = (
-				CA39AA5D2817F475002675A0 /* View */,
-			);
-			path = About;
-			sourceTree = "<group>";
-		};
-		CA39AA5A2817F453002675A0 /* Detail */ = {
-			isa = PBXGroup;
-			children = (
-				CA39AA612817F48B002675A0 /* Presenter */,
-				CA39AA5E2817F479002675A0 /* View */,
-			);
-			path = Detail;
-			sourceTree = "<group>";
-		};
-		CA39AA5B2817F45C002675A0 /* Favorite */ = {
-			isa = PBXGroup;
-			children = (
-				CA39AA622817F490002675A0 /* Presenter */,
-				CA39AA642817F49C002675A0 /* Router */,
-				CA39AA5F2817F47E002675A0 /* View */,
-			);
-			path = Favorite;
-			sourceTree = "<group>";
-		};
-		CA39AA5C2817F465002675A0 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				CA39AA632817F494002675A0 /* Presenter */,
-				CA39AA652817F4A1002675A0 /* Router */,
-				CA39AA602817F482002675A0 /* View */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		CA39AA5D2817F475002675A0 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				CA39AA662817F4B4002675A0 /* About.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		CA39AA5E2817F479002675A0 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				CA39AA712817F9CE002675A0 /* DetailView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		CA39AA5F2817F47E002675A0 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				CA39AA772817FAAB002675A0 /* FavoriteView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		CA39AA602817F482002675A0 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				CA39AA7D2817FB43002675A0 /* HomeView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		CA39AA612817F48B002675A0 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				CA39AA682817F4CF002675A0 /* DetailPresenter.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		CA39AA622817F490002675A0 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				CA39AA732817F9E8002675A0 /* FavoritePresenter.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		CA39AA632817F494002675A0 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				CA39AA792817FAD7002675A0 /* HomePresenter.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		CA39AA642817F49C002675A0 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-				CA39AA752817FA1F002675A0 /* FavoriteRouter.swift */,
-			);
-			path = Router;
-			sourceTree = "<group>";
-		};
-		CA39AA652817F4A1002675A0 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-				CA39AA7B2817FB07002675A0 /* HomeRouter.swift */,
-			);
-			path = Router;
-			sourceTree = "<group>";
-		};
 		CA39AA6A2817F561002675A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -281,12 +119,16 @@
 			isa = PBXGroup;
 			children = (
 				CA15CFB62815B8AD008D03C0 /* .swiftlint.yml */,
-				CA15CFB72815B948008D03C0 /* ApiGames */,
+				CA28661528182A94004702D0 /* Core */,
+				CA28661828183524004702D0 /* FeatureAbout */,
+				CA28661A28183577004702D0 /* FeatureDetail */,
+				CA28661928183540004702D0 /* FeatureFavorite */,
+				CA28661128182371004702D0 /* FeatureHome */,
+				CA39AA6A2817F561002675A0 /* Frameworks */,
 				CAA768E42815A1CD0056058E /* GameCatalogue */,
 				CAA768F52815A1CE0056058E /* GameCatalogueTests */,
 				CAA768FF2815A1CE0056058E /* GameCatalogueUITests */,
 				CAA768E32815A1CD0056058E /* Products */,
-				CA39AA6A2817F561002675A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -304,7 +146,6 @@
 			isa = PBXGroup;
 			children = (
 				CA39AA4B2817F319002675A0 /* App */,
-				CA39AA4D2817F387002675A0 /* Modules */,
 				CAA768EB2815A1CD0056058E /* Preview Content */,
 				CA39AA4C2817F32A002675A0 /* Supporting Files */,
 			);
@@ -354,9 +195,13 @@
 			);
 			name = GameCatalogue;
 			packageProductDependencies = (
-				CA39AA6B2817F561002675A0 /* ApiGames */,
 				CA39AA6D2817F581002675A0 /* SDWebImageSwiftUI */,
 				CA39AA6F2817F586002675A0 /* RxSwift */,
+				CA28660F2818234F004702D0 /* ApiGames */,
+				CA28661628182C1C004702D0 /* FeatureHome */,
+				CA28661B2818380A004702D0 /* FeatureAbout */,
+				CA28661D2818380A004702D0 /* FeatureDetail */,
+				CA28661F2818380A004702D0 /* FeatureFavorite */,
 			);
 			productName = GameCatalogue;
 			productReference = CAA768E22815A1CD0056058E /* GameCatalogue.app */;
@@ -433,6 +278,7 @@
 			packageReferences = (
 				CA15CFB828167907008D03C0 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 				CA15CFBE28167A75008D03C0 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				CA28660C28182337004702D0 /* XCRemoteSwiftPackageReference "api-games-ios" */,
 			);
 			productRefGroup = CAA768E32815A1CD0056058E /* Products */;
 			projectDirPath = "";
@@ -497,20 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA39AA542817F3DB002675A0 /* ActivityIndicator.swift in Sources */,
-				CA39AA722817F9CE002675A0 /* DetailView.swift in Sources */,
-				CA39AA742817F9E8002675A0 /* FavoritePresenter.swift in Sources */,
-				CA39AA7E2817FB43002675A0 /* HomeView.swift in Sources */,
-				CA39AA562817F3EE002675A0 /* CardModifier.swift in Sources */,
-				CA39AA782817FAAB002675A0 /* FavoriteView.swift in Sources */,
-				CA39AA762817FA1F002675A0 /* FavoriteRouter.swift in Sources */,
-				CA39AA672817F4B4002675A0 /* About.swift in Sources */,
-				CA39AA692817F4CF002675A0 /* DetailPresenter.swift in Sources */,
-				CA39AA582817F403002675A0 /* GameItem.swift in Sources */,
-				CA39AA7C2817FB07002675A0 /* HomeRouter.swift in Sources */,
-				CA39AA7A2817FAD7002675A0 /* HomePresenter.swift in Sources */,
 				CAA768E82815A1CD0056058E /* ContentView.swift in Sources */,
-				CA39AA512817F3B9002675A0 /* DateUtils.swift in Sources */,
 				CAA768E62815A1CD0056058E /* GameCatalogueApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -848,12 +681,37 @@
 				kind = branch;
 			};
 		};
+		CA28660C28182337004702D0 /* XCRemoteSwiftPackageReference "api-games-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fahlepyrizal01/api-games-ios";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		CA39AA6B2817F561002675A0 /* ApiGames */ = {
+		CA28660F2818234F004702D0 /* ApiGames */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = CA28660C28182337004702D0 /* XCRemoteSwiftPackageReference "api-games-ios" */;
 			productName = ApiGames;
+		};
+		CA28661628182C1C004702D0 /* FeatureHome */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FeatureHome;
+		};
+		CA28661B2818380A004702D0 /* FeatureAbout */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FeatureAbout;
+		};
+		CA28661D2818380A004702D0 /* FeatureDetail */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FeatureDetail;
+		};
+		CA28661F2818380A004702D0 /* FeatureFavorite */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FeatureFavorite;
 		};
 		CA39AA6D2817F581002675A0 /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
